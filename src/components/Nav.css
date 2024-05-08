@@ -1,0 +1,48 @@
+.NavContainer{
+    height: 80px;
+    width: 100%;
+    z-index: 10001;
+    display: flex;
+    padding: 5px;
+}
+.logo{
+    flex: 4;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.logoLemon{
+    height: 100%;
+    width: 200px;
+  
+}
+.NavContent{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listItem{
+    padding: 5px;
+    font-size: larger;
+    color: rgb(95, 89, 89);
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    .logo{
+        flex: 2;
+    }
+    .NavContent{
+        display: none;
+    }
+
+}
+    
