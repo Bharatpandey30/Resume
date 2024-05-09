@@ -11,6 +11,7 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
+    margin-left: -60px;
 }
 .logoLemon{
     height: 100%;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -56px;
 }
 .NavList{
     display: flex;

@@ -1,0 +1,55 @@
+.HeaderContainer {
+    height: 450px;
+    width: 100%;
+    background-color: #495e57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContent {
+    flex: 6;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: flex-start; /* Align content at the start */
+    margin-left: -40px;
+}
+.textContent h1 {
+    margin-left: 250px;
+    color: #F4CE14;
+    font-size: 2.5em;
+    margin-bottom: -10px; /* Adjust spacing between elements */
+}
+.textContent h3 {
+    margin-left: 250px;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px; /* Adjust spacing between elements */
+}
+
+.textContent span {
+    margin-left: 250px;
+    color: white;
+    font-size: larger;
+    margin-bottom: 20px; /* Adjust spacing between elements */
+}
+
+.headerButton {
+   margin-left: 250px;
+   height: 50px;
+   width: 200px;
+}
+
+.imgContent{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerImg{
+    height: 380px;
+    width: 380px;
+    border-radius: 4%;
+    margin-right:100px ;
+    margin-top: 220px;
+}

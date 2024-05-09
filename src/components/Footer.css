@@ -1,0 +1,56 @@
+.FooterContainer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.firstBox{
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 158px;
+    margin-top: -50px;
+}
+.firstBox span{
+    text-align: justify;
+    text-align-last: justify;
+    width: 80%;
+    margin: 10px ;
+    
+}
+.Lemon{
+    height: 100px;
+    width: 270px;
+}
+
+.secBox{
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thirdBox{
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listItem h3{
+    margin-top: -10px;
+}
+.fourthBox{
+    width: 18%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}

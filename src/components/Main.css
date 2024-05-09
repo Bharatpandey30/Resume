@@ -1,0 +1,85 @@
+.MainContainer {
+    width: 80%;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.topContent h1 {
+    font-size: 2.8em;
+}
+
+.MainButton {
+    width: 170px;
+    height: 50px;
+    margin-left: 750px;
+    margin-top: 20px;
+}
+
+.menuContent {
+    /* Remove or set width to auto */
+    width: auto;
+    height: 500px;
+    display: flex;
+    margin-top: 150px;
+  
+}
+.TP{
+    display: flex;
+
+}
+.menuCont {
+    margin-left: 200px;
+    border-radius: 4%;
+}
+
+.box {
+    margin: 30px;
+    border-radius: 4%;
+}
+
+.menuImg {
+    height: 50%;
+    width: 385px;
+    border-radius: 4%;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #a9c8be;
+    margin-right: 70px;
+    border-radius: 4%;
+    width: 600px;
+}
+
+.menuItem h2 {
+    flex: 8;
+    color: black;
+    font-size: larger;
+    margin-left: 20px;
+}
+
+.menuItem h3 {
+    flex: 2;
+    margin-left: 100px;
+    color: black;
+    font-size: larger;
+}
+.menuItem span {
+    padding: 20px;
+    margin-top: -10px;
+    color: black;
+    font-size: larger;
+}
+.menuButton{
+    height: 50px;
+    width: 140px;
+   margin: 20px;
+}
